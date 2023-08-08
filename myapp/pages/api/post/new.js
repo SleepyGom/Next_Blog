@@ -8,6 +8,6 @@ export default async function handler(request, response){
         
         const db = (await connectDB).db('blog')
         let result = await db.collection('post').insertOne(request.body)
-        return response.status(200).redirect('/list')
+        return response.status(200).redirect(302, '/list')
     }
 }
