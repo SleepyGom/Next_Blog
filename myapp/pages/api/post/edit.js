@@ -11,6 +11,6 @@ export default async function handler(request, response){
         {$set : change}
     )
     
-    return response.status(200).redirect(302,'/list')
+    return response.status(200).redirect(302,'/olist')
     }
 }
