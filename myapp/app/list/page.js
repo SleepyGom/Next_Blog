@@ -11,6 +11,7 @@ export default async function List () {
     console.log(result)
     return (
     <div className="list-bg">
+        <Link href={'/write'}>글쓰기</Link>
         <ListItem result={result}/>
     </div>
     )
