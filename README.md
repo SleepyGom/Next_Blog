@@ -1,2 +1,2 @@
 # Next_Blog
-* Makng Blog wth NextJS
+* Making Blog wth NextJS

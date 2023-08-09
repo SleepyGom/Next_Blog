@@ -17,6 +17,7 @@ export default async function List () {
                 <Link href={`detail/${a._id}`}><h4>{a.title}</h4></Link>
                 <DetailLink/>
                 <p>{a.content}</p>
+                <Link href={`/edit/${a._id}`}>✏️</Link>
             </div>
             )
         })
