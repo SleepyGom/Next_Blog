@@ -60,3 +60,8 @@ button {
     opacity: 1;
     transition: all .5s;
 }
+
+.user-thum {
+    width: 30px;
+    height: 30px;
+}
