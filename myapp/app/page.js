@@ -7,7 +7,6 @@ export default async function Home() {
   const db = client.db("blog");
   let result = await db.collection('post').find().toArray();
 
-  console.log(result)
 
   // GET요청 caching
   // await fetch('/',{cache : 'force-cache'})
