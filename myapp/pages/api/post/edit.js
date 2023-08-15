@@ -13,7 +13,7 @@ export default async function handler(request, response){
     let filter = await db.collection('post').findOne({ _id : new ObjectId(request.body) })
 
     console.log(filter.author)
-    if(!session){
+    if(session){
         if(filter.author == session.user.email){
             let result = await db.collection('post').updateOne(
                 {_id : new ObjectId(request.body._id)},
