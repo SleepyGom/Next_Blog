@@ -2,7 +2,7 @@
     * NextJS를 통하여 블로그 기능들을 작성 해보고 NextJS에 대하여 공부해보는 REPO
 
 ## 공부 목록
-    * ~~프로젝트 생성 및 MongoDB setting~~
+    ~~* 프로젝트 생성 및 MongoDB setting~~
     * ~~Next.js에서 MongoDB 연결 및 사용~~
     * ~~글목록 조회 구현~~
     * ~~상세페이지 구현~~
